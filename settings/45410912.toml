@@ -2,5 +2,7 @@
 # Title ID: 45410912
 
 [GPU]
-gamma_render_target_as_unorm16 = false # Gamma correction for Source engine games
 readback_resolve = "full" # Fixes the text not rendering
+
+[GPU.Debug]
+gamma_render_target_as_unorm16 = false # Fixes broken gamma
